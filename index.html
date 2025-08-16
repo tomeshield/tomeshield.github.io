@@ -1,19 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
     <title>Tome Shield</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Tome Shield — Practical cybersecurity for small and mid-sized businesses: assessments, training, and protection you can afford."
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
+    <!-- Original content (kept) -->
     <h1>Tome Shield</h1>
     <h2>Cybersecurity for Everyone</h2>
-    <p>Cybersecurity is becoming more important, and it is starting to effect everyone.</p>
-    <h3>Including you...</h3>
-    <img src="scary_hacker.png" alt="A scary hacker pointing at the user from a computer screen." class="scary_hacker">
-    <p>Luckily for you, Tome Shield is here to guard what matters most, your data<br>
-        Contact us for a free, 30 minute consultation. 
+    <ul class="navbar">
+      <li class="navli"><a href="index.html">Home</a></li>
+      <li class="navli"><a href="news.html">News</a></li>
+      <li class="navli"><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>
+      Cybersecurity is becoming more important, and it is starting to effect everyone.
     </p>
+    <h3>Including you...</h3>
+    <img
+      src="scary_hacker.png"
+      alt="A scary hacker pointing at the user from a computer screen."
+      class="scary_hacker"
+    />
+    <p>
+      Luckily for you, Tome Shield is here to guard what matters most, your data<br />
+      Contact us for a free, 30 minute consultation.
+    </p>
+
+    <!-- Additions (kept) -->
+    <section class="hero" aria-labelledby="hero-title">
+      <h2 id="hero-title">Security that fits small & mid-size businesses</h2>
+      <p class="hero-subtitle">
+        We focus on practical risks, clear guidance, and affordable protection—
+        so you can stay compliant and operational without the enterprise price tag.
+      </p>
+      <p>
+        <a class="cta-primary" href="contact.html">Get a Free 30-Minute Consultation</a>
+      </p>
+      <p class="hero-note">No jargon. No pressure. Actionable next steps.</p>
+    </section>
+
+    <section class="services" aria-labelledby="services-title">
+      <h3 id="services-title">What we do for small to medium sized businesses</h3>
+      <ul class="service-cards">
+        <li>
+          <h4>Rapid Risk Assessment</h4>
+          <p>Identify your top 5 risks in days—not months. Clear fixes prioritized by impact and effort.</p>
+        </li>
+        <li>
+          <h4>Policy & Compliance Starter</h4>
+          <p>Practical templates and guidance for SOC2, NIST, and basic vendor/security questionnaires.</p>
+        </li>
+        <li>
+          <h4>Endpoint & Account Hardening</h4>
+          <p>MFA, device encryption, secure backups, and least-privilege—implemented with your current tools.</p>
+        </li>
+        <li>
+          <h4>Staff Training & Phishing Drills</h4>
+          <p>Short, relevant sessions that reduce real-world mistakes and improve security culture.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="process" aria-labelledby="process-title">
+      <h3 id="process-title">How it works</h3>
+      <ol class="steps">
+        <li><strong>Discovery Call</strong> — understand your business, tools, and constraints.</li>
+        <li><strong>Baseline Assessment</strong> — map risks and controls; deliver a quick-read report.</li>
+        <li><strong>Action Plan</strong> — 30/60/90-day roadmap with owners and timelines.</li>
+        <li><strong>Enable & Support</strong> — implement fixes and monitor what matters.</li>
+      </ol>
+      <p><a class="cta-secondary" href="contact.html">Schedule your discovery call</a></p>
+    </section>
+
+    <footer class="site-footer" role="contentinfo">
+      <p>&copy; <span id="year"></span> Tome Shield. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="contact.html">Contact</a> ·
+        <a href="news.html">News</a>
+      </nav>
+    </footer>
+
+    <script>
+      (function () {
+        var y = document.getElementById('year');
+        if (y) y.textContent = new Date().getFullYear();
+      })();
+    </script>
   </body>
 </html>
