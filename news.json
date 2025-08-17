@@ -1,0 +1,30 @@
+[
+  {
+    "title": "CISA issues updated guidance for small and mid-sized businesses",
+    "url": "https://www.cisa.gov/",
+    "source": "CISA",
+    "publishedAt": "2025-01-15T12:00:00Z",
+    "image": null
+  },
+  {
+    "title": "Ransomware trends: what SMBs should do this quarter",
+    "url": "https://krebsonsecurity.com/",
+    "source": "Krebs on Security",
+    "publishedAt": "2025-01-10T08:00:00Z",
+    "image": null
+  },
+  {
+    "title": "Practical steps to improve security hygiene for small teams",
+    "url": "https://www.schneier.com/",
+    "source": "Schneier on Security",
+    "publishedAt": "2024-12-20T09:30:00Z",
+    "image": null
+  },
+  {
+    "title": "Weekly vulnerability roundup and mitigations",
+    "url": "https://thehackernews.com/",
+    "source": "The Hacker News",
+    "publishedAt": "2025-01-05T15:45:00Z",
+    "image": null
+  }
+]
