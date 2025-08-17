@@ -342,3 +342,11 @@ img { max-width: 100%; height: auto; }
 .news-title a:hover {
   border-bottom-color: aliceblue;
 }
+
+@media (max-width: 480px) {
+  .news-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .news-card img { height: 160px; }
+}

@@ -8,7 +8,7 @@ if (container) {
 }
 
 async function loadNews() {
-  const res = await fetch('./news.json', { cache: 'no-store' });
+  const res = await fetch(`./news.json?t=${Date.now()}`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to load news.json (${res.status})`);
   const items = await res.json();
 
